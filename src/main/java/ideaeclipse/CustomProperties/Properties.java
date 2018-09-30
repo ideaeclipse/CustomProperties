@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 
 public class Properties {
     private final Logger LOGGER = Logger.getLogger(this.getClass().getName());
-    private final String configName = "src/config.properties";
+    private final String configName = "config.properties";
     private File file;
     private java.util.Properties prop;
     private String[] properties;
